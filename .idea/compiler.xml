@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="datonpay-merchant-service" />
+        <module name="haha" />
+        <module name="datonpay-uaa-api" />
+        <module name="datonpay-merchant-application" />
+        <module name="datonpay-user-service" />
+        <module name="datonpay-common" />
+        <module name="datonpay-transaction-api" />
+        <module name="datonpay-uaa-service" />
+        <module name="datonpay-transaction-service" />
+        <module name="datonpay-gateway-service" />
+        <module name="datonpay-merchant-api" />
+        <module name="datonpay-payment-agent-service" />
+        <module name="datonpay-user-api" />
+        <module name="datonpay-payment-agent-api" />
+        <module name="untitled" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="haha" target="1.8" />
+      <module name="untitled" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="datonpay-common" options="-parameters -bootclasspath &quot;C:/Program Files/Java/jdk1.8.0_131/jre/lib/rt.jar;C:/Program Files/Java/jdk1.8.0_131/jre/lib/jce.jar&quot;" />
+      <module name="datonpay-gateway" options="" />
+      <module name="datonpay-gateway-service" options="-parameters" />
+      <module name="datonpay-merchant" options="" />
+      <module name="datonpay-merchant-api" options="-parameters" />
+      <module name="datonpay-merchant-application" options="-parameters" />
+      <module name="datonpay-merchant-service" options="-parameters" />
+      <module name="datonpay-payment-agent" options="" />
+      <module name="datonpay-payment-agent-api" options="-parameters -bootclasspath &quot;C:/Program Files/Java/jdk1.8.0_131/jre/lib/rt.jar;C:/Program Files/Java/jdk1.8.0_131/jre/lib/jce.jar&quot;" />
+      <module name="datonpay-payment-agent-service" options="-parameters" />
+      <module name="datonpay-transaction-api" options="-parameters -bootclasspath &quot;C:/Program Files/Java/jdk1.8.0_131/jre/lib/rt.jar;C:/Program Files/Java/jdk1.8.0_131/jre/lib/jce.jar&quot;" />
+      <module name="datonpay-transaction-service" options="-parameters" />
+      <module name="datonpay-uaa-api" options="-parameters -bootclasspath &quot;C:/Program Files/Java/jdk1.8.0_131/jre/lib/rt.jar;C:/Program Files/Java/jdk1.8.0_131/jre/lib/jce.jar&quot;" />
+      <module name="datonpay-uaa-service" options="-parameters" />
+      <module name="datonpay-user-api" options="-parameters -bootclasspath &quot;C:/Program Files/Java/jdk1.8.0_131/jre/lib/rt.jar;C:/Program Files/Java/jdk1.8.0_131/jre/lib/jce.jar&quot;" />
+      <module name="datonpay-user-service" options="-parameters" />
+      <module name="haha" options="-parameters" />
+      <module name="untitled" options="-parameters" />
+    </option>
+  </component>
+</project>
